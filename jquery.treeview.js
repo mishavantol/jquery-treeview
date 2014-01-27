@@ -226,6 +226,10 @@
 				$(settings.control).show();
 			}
 
+			if ( settings.callback && $.isFunction(settings.callback) ) {
+				settings.callback();
+			}
+
 			return this;
 		}
 	});

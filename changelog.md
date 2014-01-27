@@ -1,3 +1,7 @@
+1.4.2
+-----
+* Added callback on init.
+
 1.4.1
 -----
 * Fix for #2360
